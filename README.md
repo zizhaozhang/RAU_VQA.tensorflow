@@ -1,2 +1,26 @@
 # RAU_VQA.tensorflow
 A tensorflow version of RAU_VQA (https://github.com/HyeonwooNoh/RAU_VQA)
+
+
+This tensorflow code implements the paper https://arxiv.org/pdf/1606.03647.pdf. However, there is some details have not been added. I will complete them later on.
+But the current version is able to train.
+
+##How to train
+    Follow https://github.com/HyeonwooNoh/RAU_VQA to download the data in the ./data folder.
+    
+    Deploy the training 
+    ```python
+        python train.py
+    ```
+
+    Open tensorboard to observe
+    ```python
+        tensorboard --logdir=./checkpoint/
+    ```
+
+##TODO
+    Evaluation during training
+    Modify data loader to load different train/val set as shown in the original code.
+
+
+
