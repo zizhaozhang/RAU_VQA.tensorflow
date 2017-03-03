@@ -9,13 +9,13 @@ This tensorflow code implements the paper (https://arxiv.org/pdf/1606.03647.pdf)
 
 - Deploy the training 
 
-    ```python
+    ```
     python train.py
     ``` 
 
 - Open tensorboard to monitor the training and the loss of multiple hops
 
-    ```python
+    ```
     tensorboard --logdir=./checkpoint/
     ```
     
