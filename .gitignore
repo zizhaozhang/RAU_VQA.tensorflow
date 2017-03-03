@@ -2,4 +2,4 @@ model/*.pyc
 checkpoint/*
 tags
 *.pyc
-data/
+data2/
