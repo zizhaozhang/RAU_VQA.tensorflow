@@ -19,9 +19,4 @@ This tensorflow code implements the paper (https://arxiv.org/pdf/1606.03647.pdf)
     tensorboard --logdir=./checkpoint/
     ```
     
-### TODO
-- Evaluation during training
-- Modify data loader to load different train/val set as shown in the original code.
-
-
 
